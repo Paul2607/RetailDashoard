@@ -1,0 +1,79 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Konsistente Breite und Höhe */
+}
+
+html, body {
+  width: 100%; /* Volle Breite */
+  height: 100%; /* Volle Höhe */
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+
+/* App.css */
+.sensor-card-wrapper {
+  transition: all 0.3s ease;
+}
+
+.sensor-card-wrapper:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Grid */
+@media (max-width: 640px) {
+  .grid-cols-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1025px) {
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Card Spacing */
+.gap-4 {
+  gap: 1rem;
+}
+
+/* Additional responsive adjustments */
+@media (max-width: 640px) {
+  .sensor-card-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+
+:root {
+  /* Light mode variables */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f3f4f6;
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --border-color: #e5e7eb;
+}
+
+:root[class~="dark"] {
+  /* Dark mode variables */
+  --bg-primary: #111827;
+  --bg-secondary: #1f2937;
+  --text-primary: #f9fafb;
+  --text-secondary: #9ca3af;
+  --border-color: #374151;
+}

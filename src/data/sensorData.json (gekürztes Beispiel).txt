@@ -1,0 +1,226 @@
+{
+  "sensors": [
+{
+      "id": 70,
+      "type": "distance",
+      "data": {
+        "distance": 100
+      },
+      "history": [
+        {
+          "timestamp": "2024-12-31T11:37:43.653837",
+          "data": {
+            "distance": 100
+          }
+        },
+        {
+          "timestamp": "2024-12-31T11:52:43.653837",
+          "data": {
+            "distance": 100
+          }
+        },
+        {
+          "timestamp": "2024-12-31T12:07:43.653837",
+          "data": {
+            "distance": 100
+          }
+        },        
+	{
+          "timestamp": "2025-01-07T09:22:43.653837",
+          "data": {
+            "distance": 100
+          }
+        },
+        {
+          "timestamp": "2025-01-07T09:37:43.653837",
+          "data": {
+            "distance": 100
+          }
+        },
+        {
+          "timestamp": "2025-01-07T09:52:43.653837",
+          "data": {
+            "distance": 100
+          }
+        },
+        {
+          "timestamp": "2025-01-07T10:07:43.653837",
+          "data": {
+            "distance": 100
+          }
+        },
+        {
+          "timestamp": "2025-01-07T10:22:43.653837",
+          "data": {
+            "distance": 100
+          }
+        },
+        {
+          "timestamp": "2025-01-07T10:37:43.653837",
+          "data": {
+            "distance": 100
+          }
+        },
+        {
+          "timestamp": "2025-01-07T10:52:43.653837",
+          "data": {
+            "distance": 100
+          }
+        },
+        {
+          "timestamp": "2025-01-07T11:07:43.653837",
+          "data": {
+            "distance": 100
+          }
+        },
+        {
+          "timestamp": "2025-01-07T11:22:43.653837",
+          "data": {
+            "distance": 100
+          }
+        },
+        {
+          "timestamp": "2025-01-07T11:37:43.653837",
+          "data": {
+            "distance": 100
+          }
+        }
+      ],
+      "matchedUseCase": 1,
+      "parameters": {
+        "minDistance": 0,
+        "maxDistance": 100,
+        "warningThreshold": 40,
+        "criticalThreshold": 20
+      }
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Laden",
+      "id": "1736206334135"
+    },
+    {
+      "name": "Lager",
+      "id": "1736271335603"
+    },
+    {
+      "name": "Verkaufsraum ",
+      "id": "1736271364712"
+    },
+    {
+      "name": "cx2",
+      "id": "1736452672731"
+    }
+  ],
+  "assets": [
+    {
+      "name": "SÃ¼ÃŸigkeiten",
+      "categoryId": "1736206343892",
+      "id": "1736206362581",
+      "roomId": "1736206334135"
+    },
+    {
+      "name": "Zucker",
+      "categoryId": "1736206343892",
+      "id": "1736271300510",
+      "roomId": "1736206334135"
+    },
+    {
+      "name": "aaa",
+      "categoryId": "1736206343892",
+      "id": "1736286554643",
+      "roomId": "1736271335603"
+    },
+    {
+      "name": "Schokolade",
+      "categoryId": "1736206343892",
+      "id": "1736347279157",
+      "roomId": "1736271364712"
+    },
+    {
+      "name": "welt",
+      "categoryId": "",
+      "id": "1736452689381",
+      "roomId": "1736452672731"
+    },
+    {
+      "name": "welt",
+      "categoryId": "1736452679896",
+      "id": "1736452700060",
+      "roomId": "1736452672731"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Regale",
+      "id": "1736206343892"
+    },
+    {
+      "name": "hallo",
+      "id": "1736452679896"
+    }
+  ],
+  "favorites": [
+    {
+      "id": "fav_1736299605770",
+      "entityType": "sensor",
+      "entityId": "6",
+      "timestamp": "2025-01-08T01:26:45.770Z"
+    },
+    {
+      "id": "fav_1736346565373",
+      "entityType": "sensor",
+      "entityId": "52",
+      "timestamp": "2025-01-08T14:29:25.373Z"
+    },
+    {
+      "id": "fav_1736346590149",
+      "entityType": "sensor",
+      "entityId": "31",
+      "timestamp": "2025-01-08T14:29:50.149Z"
+    },
+    {
+      "id": "fav_1736347250522",
+      "entityType": "sensor",
+      "entityId": "44",
+      "timestamp": "2025-01-08T14:40:50.522Z"
+    },
+    {
+      "id": "fav_1736347397978",
+      "entityType": "sensor",
+      "entityId": "63",
+      "timestamp": "2025-01-08T14:43:17.978Z"
+    },
+    {
+      "id": "fav_1736378525123",
+      "entityType": "sensor",
+      "entityId": "26",
+      "timestamp": "2025-01-08T23:22:05.124Z"
+    },
+    {
+      "id": "fav_1736378526434",
+      "entityType": "sensor",
+      "entityId": "35",
+      "timestamp": "2025-01-08T23:22:06.434Z"
+    },
+    {
+      "id": "fav_1736626676434",
+      "entityType": "sensor",
+      "entityId": "7",
+      "timestamp": "2025-01-11T20:17:56.434Z"
+    },
+    {
+      "id": "fav_1736641739032",
+      "entityType": "useCase",
+      "entityId": "1",
+      "timestamp": "2025-01-12T00:28:59.032Z"
+    },
+    {
+      "id": "fav_1736644373311",
+      "entityType": "useCase",
+      "entityId": "3",
+      "timestamp": "2025-01-12T01:12:53.311Z"
+    }
+  ]
+}
